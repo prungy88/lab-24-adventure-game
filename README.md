@@ -44,11 +44,11 @@ For this assignment you'll be creating a text based adventure game.
 * This game should have at least 7 rooms that the player can move between. 
 * Your site should have a form that enables your player to move between rooms
 * put the state of your map in a service
-* puth the state and logic of your player in a service
+* put the state and logic of your player in a service
 * your app should have three components
-* one for your form
-* one for your player info
-* one for your history
+  * one for your form
+  * one for your player info
+  * one for your history
 * you may not have the same room names or story as class lecture code
 
 # Test
