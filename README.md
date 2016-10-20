@@ -16,10 +16,10 @@
  * ignore the build directory
 * include a package.json
  * must have lint script
- * must have test script // run karma once
- * must have test-watch script // run karma over and over
- * must have build script // run webpack 
- * must have build-watch script //run webpack-dev-server
+ * must have test script **run karma once**
+ * must have test-watch script **run karma over and over**
+ * must have build script **run webpack**
+ * must have build-watch script **run webpack-dev-server**
 * inclde a webpack.config.js
  * add the html loader to your loaders array
 * Create these directories to organize your code: 
