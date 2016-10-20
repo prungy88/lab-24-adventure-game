@@ -20,7 +20,7 @@
  * must have test-watch script **run karma over and over**
  * must have build script **run webpack**
  * must have build-watch script **run webpack-dev-server**
-* inclde a webpack.config.js
+* include a webpack.config.js
  * add the html loader to your loaders array
 * Create these directories to organize your code: 
  * app
@@ -32,11 +32,12 @@
 * create a **_theme.scss** partial 
 * create a **_vendor.scss** partial
  * build bootstrap from source
-* create a **base.scss** file 
+* create a **
+.scss** file 
  * `@import "theme"`
  * `@import "vendor"`
 * create a **entry.js**
- * require your **base.scss**
+ * require your **main.scss**
 
 ## Game Features
 For this assignment you'll be creating a text based adventure game.
