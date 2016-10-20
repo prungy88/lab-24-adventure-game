@@ -1,0 +1,14 @@
+@import "theme";
+
+.game-history {
+  ol {
+    list-style: none;
+    li {
+      border-radius: 5px;
+      color: $app-2nd;
+      background-color: $app-3rd;
+      margin: 10% 2%;
+
+    }
+  }
+}

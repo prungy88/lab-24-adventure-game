@@ -1,0 +1,10 @@
+<section class="game-history">
+  <ol>
+    <li ng-repeat="turn in gameHistoryCtrl.history">
+      <h3>Turn {{turn.turn}}</h3>
+      <p> Location {{turn.location}} </p>
+      <p> Witch Powers {{turn.wp}} </p>
+      <p>{{turn.desc}}</p>
+    </li>
+  </ol>
+</section>
