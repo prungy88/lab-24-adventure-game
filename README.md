@@ -10,9 +10,9 @@
 * write a question and observation on canvas
 
 # Directions
-* inclde an .eslintrc
-* inclde an .eslintingore
-* inclde a .gitignore
+* include an .eslintrc
+* include an .eslintingore
+* include a .gitignore
  * ignore the build directory
 * include a package.json
  * must have lint script
