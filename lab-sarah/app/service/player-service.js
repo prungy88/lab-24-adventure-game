@@ -16,9 +16,8 @@ function playerService($q, $log, mapService){
   let turn = 0;
 //then you can just type player instead of service.player all the time
   let player = service.player = {
-    name: 'the next supreme',
     location: '1',
-    wp: 5,
+    name: 'Prungy',
   };
 
   let history = service.history = [
@@ -26,7 +25,6 @@ function playerService($q, $log, mapService){
       turn,
       desc: 'Welcome to the game. Advance through the rooms to gain witch powers. Either become the next supreme witch or die trying',
       location: '1',
-      wp: player.wp,
     },
   ];
 
@@ -43,7 +41,6 @@ function playerService($q, $log, mapService){
           turn,
           desc: 'you just walked into a wall of fire',
           location: player.location,
-          wp: player.wp,
         });
         console.log('history', history);
         return reject('no room in that direction');
@@ -52,15 +49,12 @@ function playerService($q, $log, mapService){
         turn,
         location: newLocation,
         desc: mapService.mapData[newLocation].desc,
-        wp: player.wp,
       });
       console.log('history', history);
       player.location = newLocation;
       return resolve(player.location);
     });
   };
-
-
   //return service
   return service;
 }

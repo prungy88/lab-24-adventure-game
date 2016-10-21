@@ -1,12 +1,12 @@
 <!-- have to have a single container that holds it all, when making a template for a component -->
 <section class="gamepad">
-  <form novalidate name="gamepad">
+  <form novalidate>
     <label for="direction"> Direction </label>
     <select ng-model = "gamePadCtrl.moveDirection" class="form-control">
       <option ng-repeat="direction in gamePadCtrl.directions" value="{{direction}}">
         {{direction}}
       </option>
     </select>
-    <button type="button" class="btn btn-default" ng-click="gamePadCtrl.movePlayer()">MOVE </button>
+    <button type="button" ng-click="gamePadCtrl.movePlayer()">MOVE </button>
   </form>
 </section>

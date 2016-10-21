@@ -7,9 +7,12 @@ html, body {
 }
 
 body {
-  background-color: $app-1st;
-}
+  background-color: $app-black;
+  label, p, h1, h2, h3 {
+    color: $app-white;
+  }
 
-p, h1, h2, h3 {
-  color: $app-white;
+  h1 {
+    text-align: center;
+  }
 }

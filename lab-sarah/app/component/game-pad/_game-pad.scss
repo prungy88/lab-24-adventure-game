@@ -1,0 +1,10 @@
+@import "_theme";
+
+form {
+  display: flex;
+  flex-direction: row;
+
+  label, select, button {
+    justify-content: center;
+  }
+}

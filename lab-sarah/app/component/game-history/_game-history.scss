@@ -5,9 +5,21 @@
     list-style: none;
     li {
       border-radius: 5px;
-      color: $app-2nd;
       background-color: $app-3rd;
-      margin: 10% 2%;
+      margin-right: 10%;
+
+      h3, p {
+        text-align: center;
+        color: $app-2nd;
+      }
+
+      h3 {
+        padding-top: 2%;
+      }
+
+      p {
+        padding-bottom: 2%;
+      }
 
     }
   }
